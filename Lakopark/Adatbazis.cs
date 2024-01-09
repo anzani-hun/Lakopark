@@ -38,6 +38,13 @@ namespace Lakopark
             }
         }
 
+        internal List<Lakopark> parkadatokBetoltese()
+        {
+            List<Lakopark> lp = new List<Lakopark>();
+
+            return lp;
+
+        }
 
         private void kapcsolatZar()
         {

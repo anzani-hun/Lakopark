@@ -12,6 +12,10 @@ namespace Lakopark
 {
     public partial class Form_Lakopark : Form
     {
+
+        List<Lakopark> lakoparkok = new List<Lakopark>();
+        Adatbazis db = new Adatbazis();
+
         public Form_Lakopark()
         {
             InitializeComponent();
@@ -19,7 +23,8 @@ namespace Lakopark
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            // adatok betöltése adatbázisból //
+            lakoparkok = db.parkadatokBetoltese();
         }
     }
 }
