@@ -22,6 +22,7 @@ namespace Lakopark
             sb.Database = "lakopark";
             sb.CharacterSet = "utf8";
             connection = new MySqlConnection(sb.ConnectionString);
+            sql = connection.CreateCommand();
 
             try
             {
