@@ -98,12 +98,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adatbazis.cs" />
     <Compile Include="Form_Lakopark.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Lakopark.Designer.cs">
       <DependentUpon>Form_Lakopark.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lakopark.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form_Lakopark.resx">
